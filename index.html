@@ -1,0 +1,218 @@
+<html>
+ <head>
+  <title>
+   Code Editor Landing Page
+  </title>
+  <link rel="icon" type="image/x-icon" href="logo/codeicon.ico">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #333;
+            color: #fff;
+        }
+        .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  /* Keeps the nav items aligned to the right */
+    padding: 20px;
+    background-color: #333;
+}
+
+.logo {
+    margin-right: auto;  /* Pushes everything else to the right */
+}
+
+.logo img {
+    height: 40px;  /* Adjust size as needed */
+    width: auto;
+}
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+        .navbar a.download {
+            background-color: #8a2be2; /* Darker purple color */
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        a.download:hover{
+            background-color: #4f1d7e;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+        }
+        .left-content {
+            max-width: 50%;
+        }
+        .left-content h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .left-content p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        .left-content .buttons {
+            display: flex;
+            gap: 20px;
+        }
+        .left-content .buttons a {
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .left-content .buttons a.docs {
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 30px;
+        }
+        .left-content .buttons a.tutorial {
+            background-color: #8a2be2; /* Same color as the download button */
+            color: #fff;
+            border-radius: 30px;
+        }
+        .right-content img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .key-features {
+            padding: 50px;
+        }
+        .key-features h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .features-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .feature-item {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1 1 calc(33.333% - 40px);
+            box-sizing: border-box;
+        }
+        .feature-item h3 {
+            margin-top: 0;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .left-content {
+                max-width: 100%;
+            }
+            .features-list {
+                flex-direction: column;
+            }
+            .feature-item {
+                flex: 1 1 100%;
+            }
+        }
+  </style>
+ </head>
+ <body>
+    <div class="navbar">
+        <a href="index.html" class="logo">
+            <img src="logo/codeicon.ico" alt="Logo">
+        </a>
+        <a href="documentation.html">Docs</a>
+        <a href="about.html">About</a>
+        <a class="download" href="https://github.com/sksakib707/Code-Assistitant-Project/releases/download/v.0.0.1/Code-Assistant.zip">Download</a>
+    </div>
+    
+  <div class="container">
+   <div class="left-content">
+    <h1>
+        Your All-in-One Hub: Learn, Code, Innovate.
+    </h1>
+    <p>
+        Combine the power of AI-driven coding with an organized PDF library to supercharge your productivity.
+    </p>
+    <div class="buttons">
+     <a class="docs" href="documentation.html">
+      Docs
+     </a>
+     <a class="tutorial" href="https://youtu.be/Udrd8Jg9GI0?si=SGF4YwfwKqTi57-a" target="_blank">
+      <i class="fas fa-play">
+      </i>
+      Watch Tutorial
+     </a>
+    </div>
+   </div>
+   <div class="right-content">
+    <img alt="Screenshot of a code editor and a Python script open." height="400" src="ss/Screenshot (40).png" width="600"/>
+   </div>
+  </div>
+  <div class="key-features">
+   <h2>
+    Key Features
+   </h2>
+   <div class="features-list">
+    <div class="feature-item">
+     <h3>
+      PDF Companion
+     </h3>
+     <p>
+      Your trusted assistant for reading and managing PDFs.
+     </p>
+    </div>
+    <div class="feature-item">
+     <h3>
+      Code Editor
+     </h3>
+     <p>
+      Unleash your creativity with a clean and intuitive coding space.
+     </p>
+    </div>
+    <div class="feature-item">
+     <h3>
+      AI Assistance
+     </h3>
+     <p>
+      Get intelligent code suggestions and completions.
+     </p>
+    </div>
+    <div class="feature-item">
+     <h3>
+      Code Highlighting
+     </h3>
+     <p>
+      Easily identify different parts of your code with syntax highlighting.
+     </p>
+    </div>
+    <div class="feature-item">
+     <h3>
+      Code Folding
+     </h3>
+     <p>
+      Collapse and expand sections of your code for better readability.
+     </p>
+    </div>
+    <div class="feature-item">
+     <h3>
+      Error Detection
+     </h3>
+     <p>
+      Error detection and handling using AI.
+     </p>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

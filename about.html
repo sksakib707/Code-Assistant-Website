@@ -1,0 +1,231 @@
+<html>
+ <head>
+    
+  <title>
+   About Page
+  </title>
+  <link rel="icon" type="image/x-icon" href="logo/codeicon.ico">
+  <style>
+   body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .navbar {
+            width: 100%;
+            background-color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+        .navbar img {
+            width: 40px;
+            height: 40px;
+        }
+        .navbar .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .navbar .nav-links .download-btn {
+            background-color: #8a2be2; /* Darker purple color */
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .navbar .nav-links .download-btn:hover{
+            background-color: #4f1d7e;
+        }
+        
+        .content {
+            text-align: center;
+            margin-top: 20px;
+            width: 80%;
+        }
+        .content h1, .content h2 {
+            margin: 20px 0;
+            text-decoration: underline;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #444;
+            border-radius: 10px;
+            width: 100%;
+        }
+        .section1 {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #444;
+            border-radius: 10px;
+            width: 100%;
+            line-height: 1.8;
+        }
+        .developers {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px 0;
+            width: 100%;
+        }
+        .developer {
+            text-align: center;
+            margin: 20px;
+        }
+        .developer img {
+            border-radius: 50%;
+            border: 3px solid #1e90ff;
+            width: 100px;
+            height: 100px;
+        }
+        .footer {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .footer .social-icons {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .footer .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        @media (max-width: 768px) {
+            .developers {
+                flex-direction: column;
+            }
+            .developer {
+                margin: 20px 0;
+            }
+        }
+  </style>
+ </head>
+ <body>
+    <div class="navbar">
+        <div class="logo">
+        <a href="index.html">
+            <img  src="logo/codeicon.ico" alt="Logo">
+        </a>
+        </div>
+        <div class="nav-links">
+            <a href="documentation.html">Docs</a>
+            <a href="about.html">About</a>
+            <a class="download-btn" href="https://github.com/sksakib707/Code-Assistitant-Project/releases/download/v.0.0.1/Code-Assistant.zip">Download</a>
+        </div>
+    </div>
+    
+  </div>
+  <div class="content">
+   <h1>
+    About
+   </h1>
+   <div class="section1">
+    <h2>
+     Inspiration
+    </h2>
+    <p>
+     Getting started with programming can feel overwhelming, especially for beginners. We believe that learning to code should be simple, accessible, and seamless. That’s why we built this all-in-one platform—combining a powerful code editor, an organized PDF library, and AI assistance—so you can focus on what truly matters: learning and creating. No more jumping between multiple apps; everything you need is right here. Whether you're writing your first 'Hello, World!' or building something bigger, we’re here to make your coding journey smoother and more enjoyable. Welcome to a world where learning to code is effortless and exciting!
+    </p>
+   </div>
+   <div class="section">
+    <h2>
+     Features
+    </h2>
+    <p>
+        <li>Code Editor – A simple yet powerful editor to write, edit, and run code effortlessly. </li><br>
+        <li>PDF Library – Store, organize, and read programming resources all in one place.</li><br>
+        <li>AI Assistance – Get instant coding help and explanations without leaving the app.</li><br>
+        <li>Beginner-Friendly Interface – Clean, intuitive, and distraction-free design for seamless learning.</li><br>
+        <li>All-in-One Environment – No need to switch between different apps—everything is integrated for a smooth experience.</li>    </p>
+   </div>
+
+   <div class="section">
+    <h2>
+     Challenges we ran into
+    </h2>
+    <p>
+     <li>Making auto-complete suggestion form keyword, modules.</li><br>
+     <li>Initial GUI freezing due to long-running tasks.</li><br>
+     <li>Finding the optimal AI prompting strategy for accurate results.</li><br>
+     <li>Unstable internet connection affecting performance.</li><br>
+    </p>
+   </div>
+   
+   <div class="section">
+    <h2>
+     What we learned
+    </h2>
+    <p>
+        <li>We learned about the Language Server Protocol (LSP), resource mining, and refined our language skills.</li><br>
+        <li>Implemented multi-threading to prevent GUI freezing.</li><br>
+        <li>Handled internet connection issues efficiently. </li><br>
+        <li>We learned about organizing code, teamwork, working with AI</li><br> 
+    </p>
+   </div>
+   <div class="section">
+    <h2>
+     Developers
+    </h2>
+    <div class="developers">
+     <div class="developer">
+      <img alt="MD Yousuf" height="100" src="developers/yousuf_pic.png" width="100"/>
+      <p>
+       MD Yousuf
+      </p>
+
+     </div>
+     <div class="developer">
+      <img alt="Sheikh Shadman Sakib" height="100" src="developers/Screenshot (36)-fotor-20250207222020.png" width="100"/>
+      <p>
+       Sheikh Shadman Sakib
+      </p>
+     </div>
+     <div class="developer">
+      <img alt="Asif Shahriar" height="100" src="developers/asif_pic.jpg" width="100"/>
+      <p>
+        Asif Shahriar
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="footer">
+   <p>
+   </p>
+   <div class="social-icons">
+    <a href="#">
+     <i class="fab fa-facebook">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-twitter">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-instagram">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-linkedin">
+     </i>
+    </a>
+   </div>
+  </div>
+ </body>
+</html>
